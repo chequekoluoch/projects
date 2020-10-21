@@ -1,0 +1,110 @@
+.login__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    margin: auto;
+}
+.other__logins{
+    display: flex;
+    flex-direction: column;
+    
+}
+.manual__login{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.container{
+    margin-top:'50px';
+    background-color: #EEE9E8;
+  background: cover;
+  height: calc(100vh - 50px);
+}
+.email, .password, .loginBtn{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+}
+.email, .password{
+    border: 1px solid #ccc;
+    outline: #2a9df4;
+}
+.email:focus, .password:focus{
+    border: 1px solid #2a9df4;
+    box-shadow:4px blue;
+}
+.loginBtn{
+   background-color: #2a9df4;
+   border: 1px solid #2a9df4;
+   outline: none;
+   cursor: pointer;
+}
+.google__btn{
+background-color: #fff;
+border: 1px solid #cccc;
+outline: none;
+}
+.github__btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.facebook__btn{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.google__btn, .github__btn, .facebook__btn{
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+}
+.pass__label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:5px;
+}
+.pass__label a{
+    color: #19CEEB;
+    font-size: 14px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+}
+.logo img{
+    object-fit: cover; 
+    height: 50px;
+    width:50px;
+    margin-left: 130px;
+    --margin: 50px;
+}
+.login__redirect{
+    margin: 25px 0;
+    text-align: center;
+}
+.signup__refer, .employer__refer{
+    font-size: 14px;
+    padding: 6px;
+}
+.signup__refer a{
+    color:  #19CEEB;
+}
+.employer__refer a{
+    color:  #19CEEB;
+}

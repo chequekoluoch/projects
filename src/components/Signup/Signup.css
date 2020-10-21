@@ -1,0 +1,183 @@
+.signup__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    
+}
+.other__signups{
+    display: flex;
+    flex-direction: column;
+    
+}
+.manual__signup{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.container{
+    margin-top:50px;
+    background-color: #EEE9E8;
+  --background: cover;
+  height:900px;
+  
+}
+.wrapper{
+    display: flex;
+    margin: auto;
+    width: 60vw;
+    justify-content: space-between;
+    --background-color: coral;
+    padding: 0 20px;
+}
+.email, .password, .signupBtn, .name{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+}
+.email, .password, .name{
+    border: 1px solid #ccc;
+    outline: #2a9df4;
+}
+.email:focus, .password:focus{
+    border: 1px solid #2a9df4;
+    box-shadow:4px blue;
+}
+.signupBtn{
+   background-color: #2a9df4;
+   border: 1px solid #2a9df4;
+   outline: none;
+   cursor: pointer;
+}
+.google__btn{
+background-color: #fff;
+border: 1px solid #cccc;
+outline: none;
+}
+.github__btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.facebook__btn{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.google__btn, .github__btn, .facebook__btn{
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+}
+.pass__label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:5px;
+}
+.pass__label a{
+    color: #19CEEB;
+    font-size: 14px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+}
+.logo img{
+    object-fit: cover; 
+    height: 50px;
+    width:50px;
+    margin-left: 130px;
+    --margin: 50px;
+}
+.signup__redirect{
+    margin: 10px 0;
+    text-align: center;
+}
+.login__refer{
+    font-size: 13px;
+    
+}
+.login__refer a{
+    color:  #19CEEB;
+}
+.employer__refer a{
+    color:  #19CEEB;
+}
+.left__cont{
+box-sizing: border-box;
+width: 33vw;
+--background-color: #fff;
+margin: 30px;
+padding-top: 200px;
+}
+.div1 p{
+    font-size: 30px;
+}
+.div2{
+   display: flex;
+   justify-items: center;
+}
+.div3{
+    display: flex;
+    justify-items: center;
+ }
+ .div4{
+    display: flex;
+    justify-items: center;
+ }
+ .div5{
+    display: flex;
+    justify-items: center;
+ }
+ .div1 span, .div2 span, .div3 span, .div4 span, .div5 span{
+     margin-left: 6px;
+     font-size: 14px;
+ }
+ .div1, .div2, .div3, .div4, .div5{
+    margin-bottom: 20px;
+}
+ .div6{
+     font-size: 12px;
+    
+ }
+ .inner__div1{
+     margin-bottom: 20px;
+     font-size: 13px;
+ }
+ .inner__div2{
+    font-size: 13px;
+ }
+ .inner__div2 a{
+     color: #2a9df4;
+ }
+ .passwarn{
+     padding:14px 0;
+     font-size: 12px;
+     color: #524f4f;
+ }
+.captcha{
+    background-color: #EEE9E8;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 140px;
+    margin-bottom: 5px;
+    padding:6px;
+}
+.condition{
+    display: flex;
+}
+

@@ -1,0 +1,32 @@
+.quized__wrapper{
+    display: flex;
+    margin: 0;
+    --top:50px;
+    --position: absolute;
+    flex-direction: row;
+    --justify-content: space-between;
+    margin-top: 50px;
+
+}
+.left__contained{
+    width: 14vw;
+    margin: 0;
+    position: fixed;
+    height: calc(100vh - 50px);
+    z-index: 1000;
+    top: 50px !important;
+    --border-right: 1px solid grey;
+}
+.right__contained{
+    min-height: calc(100vh-50px);
+    float: right;
+    right: 0;
+    width: 100vw;
+    padding-left:14vw;
+    display: flex;
+    padding:'30px';
+   
+}
+.ddd svg{
+      color:'#f48024'
+}

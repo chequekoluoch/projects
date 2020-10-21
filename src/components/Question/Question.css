@@ -1,0 +1,74 @@
+.quiz__container{
+    background-color: #EEE9E8;
+    padding:0 30px;
+    background: cover;
+    margin-top: 50px;
+}
+.quiz__title{
+    background-image: url(https://cdn.sstatic.net/Img/ask/background.svg?v=2e9a8205b368);
+    background-repeat: no-repeat !important;
+height: 150px;
+background-position: right bottom !important;
+}
+.title{
+    font-size: 2rem !important;
+    text-align: left;
+    padding: 40px;
+}
+.textarea__wrapper{
+    padding:0 40px;
+    display: flex;
+}
+.textarea__container{
+    width: 65vw;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    
+}
+
+.input__title-text input{
+   font-size: 15px;
+   padding: 10px;
+   text-transform: muted;
+   outline: none;
+   border: 1px solid #EEE9E8;
+   box-sizing: border-box;
+   border-radius: 4px;
+   width: 99.7%;
+   margin:10px 0;
+}
+.post-editor{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.post-editor label h4{
+    font-size: 17px;
+}
+.input__title-label{
+    font-size: 13px;
+}
+.input__title-label h4{
+    font-size: 17px;
+}
+.right__container{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:#fff;
+   --padding: 4px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  1px 1px 2px 2px #ccc;
+}
+.righ{
+    width: 32vw;
+    margin-left: 2vw;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.linkage{
+    color:blue;
+}

@@ -1,0 +1,41 @@
+.hero{
+    background-color: #ffcf10;
+    background-image: url(https://cdn.sstatic.net/Img/home/illo-hero-full.svg?v=e2018a5f9272);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 575px;
+    margin-top: 50px;
+    
+    
+}
+.hero-text{
+    width:500px;
+    align-content: center;
+    text-align: center;
+    padding-top: 128px !important;
+    padding-bottom: 128px !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+h1{
+    font-family: 'Roboto Slab Bold',serif;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 50;
+    font-size:1.6rem;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+button{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 12px;
+}
